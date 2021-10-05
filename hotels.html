@@ -54,7 +54,6 @@
             <p class="text5">Гостиницы</p>
           </li>
         </ul>
-        <span class="icon9"></span>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -110,10 +109,10 @@
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-            <label class="control2">
-              <input class="input2" type="number" name="min-price" placeholder="от" value="0">
-              <input class="input2" type="number" name="max-price" placeholder="до" value="9000">
-            </label>
+            <label class="control2" for="from">от</label>
+              <input class="input2" id="from" type="number" name="min-price" value="0">
+            <label class="control2" for="from2">до</label>
+              <input class="input2" id="from2" type="number" name="max-price" value="9000">
             <button class="range-toggle toggle-min" type="button">
               <span class="visually-hidden">Изменить минимальную цену.</span>
             </button>
@@ -124,8 +123,9 @@
           <button class="button-acceptance" type="submit">ПРИМЕНИТЬ</button>
           <input class="button-reset" type="reset" name="discharge" value="Сбросить">
         </form>
-        <h2 class="heading3">НАЙДЕНО ГОСТИНИЦ:</h2>
       </section>
+      <section>
+        <h2 class="heading3">НАЙДЕНО ГОСТИНИЦ:</h2>
         <form class="sorting-type">
           <label class="visually-hidden" for="sorting">Сортировка</label>
             <select class="select-control" id="sorting" name="sorting">
@@ -162,7 +162,7 @@
             <p class="text7">От 3000 ₽</p>
             <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
             <a class="link-favorites" href="#">В избранное</a>
-            <span class="icon10 visually-hidden">3 звезды</span>
+            <span class="icon9 visually-hidden">3 звезды</span>
             <p class="text8">Рейтинг:</p>
           </li>
           <li class="card-hotels">
@@ -172,7 +172,7 @@
             <p class="text7">От 2000 ₽</p>
             <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
             <a class="link-favorites2" href="#">В избранное</a>
-            <span class="icon11 visually-hidden">2 звезды</span>
+            <span class="icon10 visually-hidden">2 звезды</span>
             <p class="text8">Рейтинг:</p>
           </li>
           <li class="card-hotels">
@@ -182,7 +182,7 @@
             <p class="text7">От 3000 ₽</p>
             <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
             <a class="link-favorites" href="#">В избранное</a>
-            <span class="icon12 visually-hidden">2 звезды</span>
+            <span class="icon11 visually-hidden">2 звезды</span>
             <p class="text8">Рейтинг:</p>
           </li>
         </ul>
