@@ -1,0 +1,123 @@
+.poisk1 {
+    width: 18px;
+    height: 18px;
+    background: url(../images/search.svg) no-repeat;
+}
+
+.favourites {
+    width: 18px;
+    height: 17px;
+    background: url(../images/favourites.svg) no-repeat;
+}
+
+.background1 {
+    background: url(../images/background1.png) no-repeat;
+}
+
+.decor {
+    width: 1200px;
+    height: 57px;
+    background: url(../images/decor.svg) no-repeat;
+}
+
+.icon1 {
+    width: 75px;
+    height: 72px;
+    background: url(../images/lodge.svg) no-repeat; 
+}
+
+.icon2 {
+    width: 74px;
+    height: 70px;
+    background: url(../images/burger.svg) no-repeat; 
+}
+
+.icon3 {
+    width: 64px;
+    height: 76px;
+    background: url(../images/gift.svg) no-repeat; 
+}
+
+.icon4 {
+    width: 18px;
+    height: 15px;
+    background: url(../images/twitter.svg) no-repeat;
+}
+
+.icon5 {
+    width: 10px;
+    height: 18px;
+    background: url(../images/facebook.svg) no-repeat;
+}
+
+.icon6 {
+    width: 20px;
+    height: 16px;
+    background: url(../images/youtube.svg) no-repeat;
+}
+
+.icon7 {
+    width: 115px;
+    height: 33px;
+    background: url(../images/academia.svg) no-repeat;
+}
+
+.background2 {
+    width: 1200px;
+    height: 411px;
+    background: url(../images/background2.png) no-repeat;
+}
+
+.background3 {
+    width: 1200px;
+    height: 408px;
+    background: url(../images/catalog-background.png) no-repeat;
+}
+
+.icon8 {
+    width: 12px;
+    height: 12px;
+    background: url(../images/the-shack.svg) no-repeat;
+}
+
+.the-arrow {
+    width: 5px;
+    height: 8px;
+    background: url(../images/the-arrow.svg) no-repeat;
+}
+
+.icon9 {
+    width: 16px;
+    height: 14px;
+    background: url(../images/squares.svg) no-repeat;
+}
+
+.button-carousel {
+    width: 16px;
+    height: 14px;
+    background: url(../images/unidentified-object.svg) no-repeat;
+}
+
+.button-light {
+    width: 16px;
+    height: 14px;
+    background: url(../images/list.svg) no-repeat;
+}
+
+.icon10 {
+    width: 91px;
+    height: 17px;
+    background: url(../images/four-stars.svg) no-repeat;
+}
+
+.icon11 {
+    width: 68px;
+    height: 17px;
+    background: url(../images/three-stars.svg) no-repeat;
+}
+
+.icon12 {
+    width: 18px;
+    height: 17px;
+    background: url(../images/two-stars.svg) no-repeat;
+}
