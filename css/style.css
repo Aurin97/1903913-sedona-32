@@ -1,3 +1,49 @@
+/* Основные настройки */
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/ptsans-700.woff2) format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    background-color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    color: rgba(156, 22, 181, 0);
+}
+
+.page-header {
+    color:black;
+    background-color: #FFFFFF;
+}
+
+.navigation-link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color:black;
+}
+
 .poisk1 {
     width: 18px;
     height: 18px;
@@ -10,32 +56,19 @@
     background: url(../images/favourites.svg) no-repeat;
 }
 
-.background1 {
-    background: url(../images/background1.png) no-repeat;
+.button-wishlist {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #756257;
 }
 
-.decor {
-    width: 1200px;
-    height: 57px;
-    background: url(../images/decor.svg) no-repeat;
-}
-
-.icon1 {
-    width: 75px;
-    height: 72px;
-    background: url(../images/lodge.svg) no-repeat; 
-}
-
-.icon2 {
-    width: 74px;
-    height: 70px;
-    background: url(../images/burger.svg) no-repeat; 
-}
-
-.icon3 {
-    width: 64px;
-    height: 76px;
-    background: url(../images/gift.svg) no-repeat; 
+.button-subscription {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #83B3D3;
 }
 
 .icon4 {
@@ -62,16 +95,143 @@
     background: url(../images/academia.svg) no-repeat;
 }
 
+.telephone {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Настройки первой страницы */
+
+.background1 {
+    background: url(../images/background1.png) no-repeat;
+}
+
+.decor {
+    width: 1200px;
+    height: 57px;
+    background: url(../images/decor.svg) no-repeat;
+}
+
+.background4 {
+    background-color: #FFFFFF;
+}
+
+.heading1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.background5 {
+    background-color: #83B3D3;
+}
+
+.heading2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.icon1 {
+    width: 75px;
+    height: 72px;
+    background: url(../images/lodge.svg) no-repeat; 
+}
+
+.background6 {
+    background: rgba(131, 179, 211, 0.12);
+    text-align: center;
+}
+
+.background7 {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.background8 {
+    background: rgba(131, 179, 211, 0.2);
+    text-align: center;
+}
+
+.text3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.icon2 {
+    width: 74px;
+    height: 70px;
+    background: url(../images/burger.svg) no-repeat; 
+}
+
+.icon3 {
+    width: 64px;
+    height: 76px;
+    background: url(../images/gift.svg) no-repeat; 
+}
+
+.search-for-hotels {
+    background: #FFFFFF;
+}
+
+.text-4 {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.poisk2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #756257;
+}
+
 .background2 {
     width: 1200px;
     height: 411px;
     background: url(../images/background2.png) no-repeat;
 }
 
+.form {
+    text-align: center;
+}
+
+/* Настройки второй страницы */
+
 .background3 {
     width: 1200px;
     height: 408px;
     background: url(../images/catalog-background.png) no-repeat;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    color: #FFFFFF;
 }
 
 .icon8 {
@@ -84,6 +244,46 @@
     width: 5px;
     height: 8px;
     background: url(../images/the-arrow.svg) no-repeat;
+}
+
+.text5 {
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.catalog-filter-title {
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.control-label {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.button-acceptance {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #83B3D3;
+}
+
+.button-reset {
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading3 {
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .icon9 {
@@ -104,10 +304,50 @@
     background: url(../images/list.svg) no-repeat;
 }
 
+.card-hotels-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.text6 {
+    line-height: 23px;
+}
+
+.text7 {
+    line-height: 23px;
+}
+
+.button-detailed {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #756257;
+}
+
+.link-favorites {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #83B3D3;
+}
+
 .icon10 {
     width: 91px;
     height: 17px;
     background: url(../images/four-stars.svg) no-repeat;
+}
+
+.text8 {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    background: #F2F2F2;
 }
 
 .icon11 {
@@ -116,8 +356,67 @@
     background: url(../images/three-stars.svg) no-repeat;
 }
 
+.link-favorites2 {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #7DB54F;
+}
+
 .icon12 {
     width: 18px;
     height: 17px;
     background: url(../images/two-stars.svg) no-repeat;
+}
+
+.button-loading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #83B3D3;
+}
+
+.pagination-current {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    background: #E5E5E5;
+}
+
+.pagination-link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #83B3D3;
+}
+
+.form2 {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.heading4 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text10 {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
 }
