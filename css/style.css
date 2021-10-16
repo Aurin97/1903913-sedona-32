@@ -20,7 +20,7 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: black;
+    color: rgba(0, 0, 0, 1);
     background-color: #E5E5E5;
 }
 
@@ -29,22 +29,31 @@ a {
 }
 
 .visually-hidden {
-    color: rgba(156, 22, 181, 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .page-header {
-    color:black;
-    background-color: #FFFFFF;
+    color:rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .navigation-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color:black;
+    color:rgba(0, 0, 0, 1);
 }
 
-.poisk1 {
+.search-icon {
     width: 18px;
     height: 18px;
     background: url(../images/search.svg) no-repeat;
@@ -58,8 +67,9 @@ a {
 
 .button-wishlist {
     text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #756257;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(117, 98, 87, 1);
+    font-size: 16px;
 }
 
 .button-subscription {
@@ -67,29 +77,29 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #83B3D3;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(131, 179, 211, 1);
 }
 
-.icon4 {
+.twitter {
     width: 18px;
     height: 15px;
     background: url(../images/twitter.svg) no-repeat;
 }
 
-.icon5 {
+.facebook {
     width: 10px;
     height: 18px;
     background: url(../images/facebook.svg) no-repeat;
 }
 
-.icon6 {
+.youtube {
     width: 20px;
     height: 16px;
     background: url(../images/youtube.svg) no-repeat;
 }
 
-.icon7 {
+.academia {
     width: 115px;
     height: 33px;
     background: url(../images/academia.svg) no-repeat;
@@ -100,12 +110,12 @@ a {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
 /* Настройки первой страницы */
 
-.background1 {
+.mountains {
     background: url(../images/background1.png) no-repeat;
 }
 
@@ -115,102 +125,116 @@ a {
     background: url(../images/decor.svg) no-repeat;
 }
 
-.background4 {
-    background-color: #FFFFFF;
+.white-color {
+    background-color: rgba(255, 255, 255, 1);
 }
 
-.heading1 {
+.place {
     font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
     text-transform: uppercase;
-    color: black;
-    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.text1 {
+.reasons {
     font-size: 22px;
     line-height: 36px;
     text-align: center;
 }
 
-.background5 {
-    background-color: #83B3D3;
+.light-blue {
+    background-color: rgba(131, 179, 211, 1);
 }
 
-.heading2 {
+.benefits {
     font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.text2 {
-    color: #FFFFFF;
+.descriptive-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.icon1 {
+.informational-text {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.lodge {
     width: 75px;
     height: 72px;
     background: url(../images/lodge.svg) no-repeat; 
 }
 
-.background6 {
+.dark-blue {
     background: rgba(131, 179, 211, 0.12);
     text-align: center;
 }
 
-.background7 {
-    background: #FFFFFF;
+.white-color-center {
+    background: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.background8 {
+.white-color-center::before {
+    content: "";
+    width: 74px;
+    height: 70px;
+    background: url(../images/burger.svg) no-repeat;
+}
+
+.dark-blue-center {
     background: rgba(131, 179, 211, 0.2);
     text-align: center;
 }
 
-.text3 {
+.description {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
     text-align: center;
 }
 
-.icon2 {
-    width: 74px;
-    height: 70px;
-    background: url(../images/burger.svg) no-repeat; 
-}
-
-.icon3 {
+.gift {
     width: 64px;
     height: 76px;
     background: url(../images/gift.svg) no-repeat; 
 }
 
 .search-for-hotels {
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 1);
 }
 
-.text-4 {
+.connection {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
 }
 
-.poisk2 {
+.search-for-hotels-in-sedona {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     line-height: 36px;
-    color: #FFFFFF;
-    background: #756257;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(117, 98, 87, 1);
 }
 
-.background2 {
+.blurred-mountains {
     width: 1200px;
     height: 411px;
     background: url(../images/background2.png) no-repeat;
@@ -222,19 +246,19 @@ a {
 
 /* Настройки второй страницы */
 
-.background3 {
-    width: 1200px;
-    height: 408px;
+.blurred-rock {
+    min-width: 1200px;
+    min-height: 408px;
     background: url(../images/catalog-background.png) no-repeat;
 }
 
 .inner-header-title {
     font-size: 60px;
     line-height: 78px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 
-.icon8 {
+.the-shack {
     width: 12px;
     height: 12px;
     background: url(../images/the-shack.svg) no-repeat;
@@ -246,22 +270,23 @@ a {
     background: url(../images/the-arrow.svg) no-repeat;
 }
 
-.text5 {
+.text-hotels {
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 
 .catalog-filter-title {
+    font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 
 .control-label {
     font-size: 18px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 
 .button-acceptance {
@@ -270,23 +295,24 @@ a {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    background: #83B3D3;
+    background: rgba(131, 179, 211, 1);
 }
 
 .button-reset {
     line-height: 23px;
     text-align: center;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 
-.heading3 {
+.hotels-found {
+    font-weight: bold;
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
-.icon9 {
+.squares {
     width: 16px;
     height: 14px;
     background: url(../images/squares.svg) no-repeat;
@@ -308,14 +334,14 @@ a {
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
-.text6 {
+.objects {
     line-height: 23px;
 }
 
-.text7 {
+.price {
     line-height: 23px;
 }
 
@@ -323,8 +349,8 @@ a {
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    color: #FFFFFF;
-    background: #756257;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(117, 98, 87, 1);
 }
 
 .link-favorites {
@@ -332,40 +358,40 @@ a {
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #83B3D3;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(131, 179, 211, 1);
 }
 
-.icon10 {
+.four-stars {
     width: 91px;
     height: 17px;
     background: url(../images/four-stars.svg) no-repeat;
 }
 
-.text8 {
+.rating {
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: #333333;
-    background: #F2F2F2;
+    color: rgba(51, 51, 51, 1);
+    background: rgba(242, 242, 242, 1);
 }
 
-.icon11 {
+.three-stars {
     width: 68px;
     height: 17px;
     background: url(../images/three-stars.svg) no-repeat;
 }
 
-.link-favorites2 {
+.chosenness {
     font-weight: bold;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #7DB54F;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(125, 181, 79, 1);
 }
 
-.icon12 {
+.two-stars {
     width: 18px;
     height: 17px;
     background: url(../images/two-stars.svg) no-repeat;
@@ -377,8 +403,8 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #83B3D3;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(131, 179, 211, 1);
 }
 
 .pagination-current {
@@ -386,8 +412,8 @@ a {
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: #000000;
-    background: #E5E5E5;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(229, 229, 229, 1);
 }
 
 .pagination-link {
@@ -396,27 +422,31 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #83B3D3;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(131, 179, 211, 1);
 }
 
-.form2 {
-    background: #FFFFFF;
+.background-for-the-form {
+    background: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.heading4 {
+.subscription {
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
-.text10 {
+.availability-of-hotels {
+    line-height: 23px;
+}
+
+.interest {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    color: #333333;
+    color: rgba(51, 51, 51, 1);
 }
