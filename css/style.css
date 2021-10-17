@@ -20,8 +20,8 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: rgba(0, 0, 0, 1);
-    background-color: #E5E5E5;
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 229, 229);
 }
 
 a {
@@ -42,15 +42,15 @@ a {
 }
 
 .page-header {
-    color:rgba(0, 0, 0, 1);
-    background-color: rgba(255, 255, 255, 1);
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .navigation-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color:rgba(0, 0, 0, 1);
+    color:rgb(0, 0, 0);
 }
 
 .search-icon {
@@ -67,8 +67,8 @@ a {
 
 .button-wishlist {
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(117, 98, 87, 1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 98, 87);
     font-size: 16px;
 }
 
@@ -77,8 +77,8 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(131, 179, 211, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
 }
 
 .twitter {
@@ -110,23 +110,21 @@ a {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
 }
 
 /* Настройки первой страницы */
 
 .mountains {
-    background: url(../images/background1.png) no-repeat;
-}
-
-.decor {
-    width: 1200px;
-    height: 57px;
-    background: url(../images/decor.svg) no-repeat;
+    background-image: url(../images/decor.svg),
+                      url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 57px, 100% 485px;
+    background-position: center;
 }
 
 .white-color {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
 }
 
 .place {
@@ -134,8 +132,8 @@ a {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
-    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -143,10 +141,11 @@ a {
     font-size: 22px;
     line-height: 36px;
     text-align: center;
+    color: rgb(51, 51, 51);
 }
 
 .light-blue {
-    background-color: rgba(131, 179, 211, 1);
+    background-color: rgb(131, 179, 211);
 }
 
 .benefits {
@@ -154,7 +153,7 @@ a {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -163,36 +162,32 @@ a {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .informational-text {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .lodge {
-    width: 75px;
-    height: 72px;
-    background: url(../images/lodge.svg) no-repeat; 
+    background-image: url(../images/lodge.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 72px;
 }
 
 .dark-blue {
+    width: 400px;
+    height: 384px;
     background: rgba(131, 179, 211, 0.12);
     text-align: center;
 }
 
 .white-color-center {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255) url(../images/burger.svg) no-repeat;
+    background-size: 74px 70px;
     text-align: center;
-}
-
-.white-color-center::before {
-    content: "";
-    width: 74px;
-    height: 70px;
-    background: url(../images/burger.svg) no-repeat;
 }
 
 .dark-blue-center {
@@ -204,7 +199,7 @@ a {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -215,7 +210,14 @@ a {
 }
 
 .search-for-hotels {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
+}
+
+.lupexperience {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
 }
 
 .connection {
@@ -230,17 +232,14 @@ a {
     font-weight: bold;
     font-size: 20px;
     line-height: 36px;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(117, 98, 87, 1);
-}
-
-.blurred-mountains {
-    width: 1200px;
-    height: 411px;
-    background: url(../images/background2.png) no-repeat;
+    color: rgb(255, 255, 255);
+    background: rgb(117, 98, 87);
 }
 
 .form {
+    width: 1200px;
+    height: 411px;
+    background: url(../images/background2.png) no-repeat;
     text-align: center;
 }
 
@@ -255,7 +254,7 @@ a {
 .inner-header-title {
     font-size: 60px;
     line-height: 78px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .the-shack {
@@ -264,7 +263,7 @@ a {
     background: url(../images/the-shack.svg) no-repeat;
 }
 
-.the-arrow {
+li:not(:last-of-type)::after{ 
     width: 5px;
     height: 8px;
     background: url(../images/the-arrow.svg) no-repeat;
@@ -273,20 +272,20 @@ a {
 .text-hotels {
     font-size: 16px;
     line-height: 21px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .catalog-filter-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .control-label {
     font-size: 18px;
     line-height: 23px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .button-acceptance {
@@ -295,13 +294,17 @@ a {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    background: rgba(131, 179, 211, 1);
+    background: rgb(131, 179, 211);
 }
 
 .button-reset {
     line-height: 23px;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+}
+
+.background-for-the-catalog {
+    background: rgb(255, 255, 255);
 }
 
 .hotels-found {
@@ -309,7 +312,7 @@ a {
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
 }
 
 .squares {
@@ -334,23 +337,26 @@ a {
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
 }
 
 .objects {
     line-height: 23px;
+    color: rgb(51, 51, 51);
 }
 
 .price {
     line-height: 23px;
+    color: rgb(51, 51, 51);
 }
 
 .button-detailed {
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(117, 98, 87, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(117, 98, 87);
+    text-transform: uppercase;
 }
 
 .link-favorites {
@@ -358,8 +364,8 @@ a {
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(131, 179, 211, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
 }
 
 .four-stars {
@@ -372,8 +378,8 @@ a {
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(51, 51, 51, 1);
-    background: rgba(242, 242, 242, 1);
+    color: rgb(51, 51, 51);
+    background: rgb(242, 242, 242);
 }
 
 .three-stars {
@@ -387,8 +393,8 @@ a {
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(125, 181, 79, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(125, 181, 79);
 }
 
 .two-stars {
@@ -403,8 +409,8 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(131, 179, 211, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
 }
 
 .pagination-current {
@@ -412,8 +418,8 @@ a {
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
-    background: rgba(229, 229, 229, 1);
+    color: rgb(0, 0, 0);
+    background: rgb(229, 229, 229);
 }
 
 .pagination-link {
@@ -422,12 +428,12 @@ a {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(131, 179, 211, 1);
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
 }
 
 .background-for-the-form {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -437,7 +443,7 @@ a {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
 }
 
 .availability-of-hotels {
@@ -448,5 +454,5 @@ a {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    color: rgba(51, 51, 51, 1);
+    color: rgb(51, 51, 51);
 }
