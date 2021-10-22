@@ -16,7 +16,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;  
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -26,6 +34,12 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.grey-background {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .visually-hidden {
@@ -41,9 +55,41 @@ a {
     overflow: hidden;
 }
 
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 720px 1fr; 
+}
+
+.contact-list {
+    
+}
+
+.phone-number {
+    margin: 0 auto;
+}
+
+.the-academy {
+    justify-self: end;
+}
+
+.list-of-social-networks {
+    list-style: none;
+}
+
 .page-header {
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 138px 1fr; 
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .navigation-link {
@@ -51,6 +97,12 @@ a {
     font-size: 20px;
     line-height: 26px;
     color:rgb(0, 0, 0);
+}
+
+.navigation-user {
+    justify-self: end;
+    max-width: 250px;
+    list-style: none;
 }
 
 .search-icon {
@@ -82,24 +134,28 @@ a {
 }
 
 .twitter {
+    display: block;
     width: 18px;
     height: 15px;
     background: url(../images/twitter.svg) no-repeat;
 }
 
 .facebook {
+    display: block;
     width: 10px;
     height: 18px;
     background: url(../images/facebook.svg) no-repeat;
 }
 
 .youtube {
+    display: block;
     width: 20px;
     height: 16px;
     background: url(../images/youtube.svg) no-repeat;
 }
 
 .academia {
+    display: block;
     width: 115px;
     height: 33px;
     background: url(../images/academia.svg) no-repeat;
@@ -115,16 +171,33 @@ a {
 
 /* Настройки первой страницы */
 
+.main-index {
+    flex-grow: 1; 
+}
+
 .mountains {
     background-image: url(../images/decor.svg),
                       url(../images/background1.png);
     background-repeat: no-repeat;
     background-size: 100% 57px, 100% 485px;
-    background-position: center;
+    background-position: center bottom 60px, center; 
+}
+
+.welcome {
+    display: block;
+    margin: 0 auto;
+    width: 458px;
+    height: 352px;
 }
 
 .white-color {
     background-color: rgb(255, 255, 255);
+}
+
+.place {
+    display: block;
+    margin: 0 auto;
+    width: 720px;
 }
 
 .place {
@@ -138,14 +211,37 @@ a {
 }
 
 .reasons {
+    display: block;     
+    margin: 0 auto;
+    width: 720px;
     font-size: 22px;
     line-height: 36px;
     text-align: center;
     color: rgb(51, 51, 51);
 }
 
+.numbered-list {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;  
+    grid-template-columns: 400px 800px;
+}
+
 .light-blue {
     background-color: rgb(131, 179, 211);
+}
+
+.bridge {
+    width: 178px;  
+    margin: 0 auto;
+     /*  тут я незнаю как сделать такойже текст как на макете а именно так:  
+      ТАМ ЕСТЬ
+    МОСТ ДЬЯВОЛА.
+    такаяже ситуация и с жильём, еда и сувениры. Также не могу сделать и для №3 №4 №5 и с заинтересовались*/
 }
 
 .benefits {
@@ -155,6 +251,11 @@ a {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+.profitable-title {
+    width: 200px;  
+    margin: 0 auto;
 }
 
 .descriptive-title {
@@ -171,28 +272,71 @@ a {
     text-align: center;
 }
 
-.lodge {
+.walk {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.the-text-about-the-sedan {  
+    Width: 220px;
+    margin: 0 auto;
+}
+
+.lodge { 
     background-image: url(../images/lodge.svg);
     background-repeat: no-repeat;
     background-size: 75px 72px;
+    background-position: center top 30px;
+    padding-top: 90px;
+}
+
+.list {
+    list-style: none;
+    display: grid;    
+    grid-template-columns: 400px 400px 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.list-of-importance {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin: 0;
+    padding: 0;
 }
 
 .dark-blue {
-    width: 400px;
-    height: 384px;
-    background: rgba(131, 179, 211, 0.12);
+    background-color: rgba(131, 179, 211, 0.12);
     text-align: center;
 }
 
 .white-color-center {
-    background: rgb(255, 255, 255) url(../images/burger.svg) no-repeat;
+    width: 400px;
+    background-image: url(../images/burger.svg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
     background-size: 74px 70px;
-    text-align: center;
+    background-position: center top 30px;
+    padding-top: 90px;
 }
 
 .dark-blue-center {
     background: rgba(131, 179, 211, 0.2);
     text-align: center;
+}
+
+.text-volume {
+    width: 400px;
+}
+
+.text-color {
+    color:rgb(0, 0, 0);
+}
+
+.size-settings {
+    width: 250px;
+    margin: 0 auto;
+    color:rgb(0, 0, 0);
 }
 
 .description {
@@ -203,14 +347,29 @@ a {
     text-align: center;
 }
 
+.informational-text-list {
+    color:rgb(0, 0, 0);
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .gift {
-    width: 64px;
-    height: 76px;
-    background: url(../images/gift.svg) no-repeat; 
+    background-image: url(../images/gift.svg);
+    background-repeat: no-repeat;
+    background-size: 64px 76px;
+    background-position: center top 30px;
+    padding-top: 90px;
+}
+
+.grid-bridge {
+    display: grid;  
+    grid-template-columns: 800px 400px;
 }
 
 .search-for-hotels {
     background: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .lupexperience {
@@ -221,9 +380,11 @@ a {
 }
 
 .connection {
+    width: 720px;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .search-for-hotels-in-sedona {
@@ -241,6 +402,7 @@ a {
     height: 411px;
     background: url(../images/background2.png) no-repeat;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Настройки второй страницы */
@@ -255,16 +417,22 @@ a {
     font-size: 60px;
     line-height: 78px;
     color: rgb(255, 255, 255);
+    padding: 15% 0 0 0;
 }
 
 .the-shack {
+    display: block;
     width: 12px;
     height: 12px;
-    background: url(../images/the-shack.svg) no-repeat;
+    background-image: url(../images/the-shack.svg);
+    background-repeat: repeat;
+    background-size: 12px 12px;
+    background-position: center;
 }
 
-li:not(:last-of-type)::after{ 
-    content: “”;
+.test::after{ 
+    display: block;
+    content: "";
     width: 5px;
     height: 8px;
     background: url(../images/the-arrow.svg) no-repeat;
