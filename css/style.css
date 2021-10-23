@@ -238,10 +238,6 @@ a {
 .bridge {
     width: 178px;  
     margin: 0 auto;
-     /*  тут я незнаю как сделать такойже текст как на макете а именно так:  
-      ТАМ ЕСТЬ
-    МОСТ ДЬЯВОЛА.
-    такаяже ситуация и с жильём, еда и сувениры. Также не могу сделать и для №3 №4 №5 и с заинтересовались*/
 }
 
 .benefits {
@@ -430,7 +426,7 @@ a {
     background-position: center;
 }
 
-.test::after{ 
+.the-arrow::after{ 
     display: block;
     content: "";
     width: 5px;
