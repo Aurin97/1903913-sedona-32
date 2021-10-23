@@ -198,9 +198,6 @@ a {
     display: block;
     margin: 0 auto;
     width: 720px;
-}
-
-.place {
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
@@ -261,6 +258,7 @@ a {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     text-align: center;
+    margin: 0 auto;
 }
 
 .informational-text {
@@ -282,7 +280,7 @@ a {
     background-image: url(../images/lodge.svg);
     background-repeat: no-repeat;
     background-size: 75px 72px;
-    background-position: center top 30px;
+    background-position: center top;
     padding-top: 90px;
 }
 
@@ -312,7 +310,7 @@ a {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: 74px 70px;
-    background-position: center top 30px;
+    background-position: center top;
     padding-top: 90px;
 }
 
@@ -341,6 +339,7 @@ a {
     line-height: 28px;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: 0 auto;
 }
 
 .informational-text-list {
@@ -354,7 +353,7 @@ a {
     background-image: url(../images/gift.svg);
     background-repeat: no-repeat;
     background-size: 64px 76px;
-    background-position: center top 30px;
+    background-position: center top;
     padding-top: 90px;
 }
 
@@ -373,6 +372,7 @@ a {
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .connection {
