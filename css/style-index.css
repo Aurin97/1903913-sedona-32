@@ -1,0 +1,238 @@
+.main-index {
+    flex-grow: 1; 
+}
+
+.mountains {
+    background-image: url(../images/for-index/decor.svg),
+                      url(../images/for-index/mountains.png);
+    background-repeat: no-repeat;
+    background-size: 100% 57px, 100% 485px;
+    background-position: center bottom 60px, center; 
+}
+
+.welcome {
+    display: block;
+    margin: 0 auto;
+    width: 458px;
+    height: 352px;
+}
+
+.place {
+    display: block;
+    margin: 0 auto;
+    width: 720px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.reasons {
+    display: block;     
+    margin: 0 auto;
+    width: 720px;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+
+.numbered-list {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;  
+    grid-template-columns: 400px 800px;
+}
+
+.light-blue {
+    background-color: rgb(131, 179, 211);
+}
+
+.benefits {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.profitable-title {
+    width: 200px;  
+    margin: 0 auto;
+}
+
+.informational-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.the-text-about-the-sedan {  
+    Width: 220px;
+    margin: 0 auto;
+}
+
+.list {
+    display: grid;    
+    grid-template-columns: 400px 400px 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-blue {
+    background-color: rgba(131, 179, 211, 0.12);
+    text-align: center;
+}
+
+.lodge { 
+    background-image: url(../images/for-index/lodge.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 72px;
+    background-position: center top;
+    padding-top: 90px;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.informational-text-list {
+    color:rgb(0, 0, 0);
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.white-color-center {
+    width: 400px;
+    background-image: url(../images/for-index/burger.svg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 74px 70px;
+    background-position: center top;
+    padding-top: 90px;
+}
+
+.gift {
+    background-image: url(../images/for-index/gift.svg);
+    background-repeat: no-repeat;
+    background-size: 64px 76px;
+    background-position: center top;
+    padding-top: 90px;
+}
+
+.grid-bridge {
+    display: grid;  
+    grid-template-columns: 800px 400px;
+}
+
+.benefits {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bridge {
+    width: 178px;  
+    margin: 0 auto;
+}
+
+.walk {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.list-of-importance {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-volume {
+    width: 400px;
+}
+
+.text-color {
+    color:rgb(0, 0, 0);
+}
+
+.size-settings {
+    width: 250px;
+    margin: 0 auto;
+    color:rgb(0, 0, 0);
+}
+
+.dark-blue-center {
+    background: rgba(131, 179, 211, 0.2);
+    text-align: center;
+}
+
+.search-for-hotels {
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.lupexperience {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.connection {
+    width: 720px;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search-for-hotels-in-sedona {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    background: rgb(117, 98, 87);
+}
+
+.form {
+    width: 1200px;
+    height: 411px;
+    background: url(../images/for-index/washed-mountains.png) no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.descriptive-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.phone-number {
+    margin: 0 auto;
+}

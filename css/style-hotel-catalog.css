@@ -1,0 +1,182 @@
+.blurred-rock {
+    min-width: 1200px;
+    min-height: 408px;
+    background: url(../images/for-hotel-catalog/washed-mountains2.png) no-repeat;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    color: rgb(255, 255, 255);
+    padding: 15% 0 0 0;
+}
+
+.the-arrow::after{ 
+    display: block;
+    content: "";
+    width: 5px;
+    height: 8px;
+    background: url(../images/for-hotel-catalog/the-arrow.svg) no-repeat;
+}
+
+.the-shack {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/for-hotel-catalog/the-shack.svg);
+    background-repeat: repeat;
+    background-size: 12px 12px;
+    background-position: center;
+}
+
+.text-hotels {
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+}
+
+.catalog-filter-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.control-label {
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.button-acceptance {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(131, 179, 211);
+}
+
+.button-reset {
+    line-height: 23px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.background-for-the-catalog {
+    background: rgb(255, 255, 255);
+}
+
+.hotels-found {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+.squares {
+    width: 16px;
+    height: 14px;
+    background: url(../images/for-hotel-catalog/squares.svg) no-repeat;
+}
+
+.button-carousel {
+    width: 16px;
+    height: 14px;
+    background: url(../images/for-hotel-catalog/unidentified-object.svg) no-repeat;
+}
+
+.button-light {
+    width: 16px;
+    height: 14px;
+    background: url(../images/for-hotel-catalog/list.svg) no-repeat;
+}
+
+.card-hotels-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+}
+
+.objects {
+    line-height: 23px;
+    color: rgb(51, 51, 51);
+}
+
+.button-detailed {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(117, 98, 87);
+    text-transform: uppercase;
+}
+
+.link-favorites {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
+}
+
+.four-stars {
+    width: 91px;
+    height: 17px;
+    background: url(../images/for-hotel-catalog/four-stars.svg) no-repeat;
+}
+
+.rating {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    background: rgb(242, 242, 242);
+}
+
+.three-stars {
+    width: 68px;
+    height: 17px;
+    background: url(../images/for-hotel-catalog/three-stars.svg) no-repeat;
+}
+
+.chosenness {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: rgb(125, 181, 79);
+}
+
+.two-stars {
+    width: 18px;
+    height: 17px;
+    background: url(../images/for-hotel-catalog/two-stars.svg) no-repeat;
+}
+
+.button-loading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: rgb(131, 179, 211);
+}
+
+.pagination-current {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgb(229, 229, 229);
+}
+
+.availability-of-hotels {
+    line-height: 23px;
+}
