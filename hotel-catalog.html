@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Седона</title>
+    <title>Гостиницы Седона</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-hotel-catalog.css" rel="stylesheet">
 </head>
@@ -50,16 +50,14 @@
         <main class="main-inner">
             <section class="blurred-rock">
               <h1 class="inner-header-title">Гостиницы Седоны</h1>
-              <ul class="list2">
+              <ul class="grid-list">
                 <li class="the-arrow"> 
                   <a class="the-shack" href="index.html"></a>
                 </li>
-                <li>
-                  <p class="text-hotels">Гостиницы</p>
-                </li>
+                <li class="text-hotels">Гостиницы</li>
               </ul>
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                <fieldset class="catalog-filter-group">
+                <fieldset class="moving">
                   <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
@@ -85,25 +83,25 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="catalog-filter-group">
+                <fieldset class="moving-object">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
-                      <label class="control">
+                      <label class="location-control">
                         <input class="visually-hidden control-input" type="radio" name="choice" value="hotels" checked>
                         <span class="control-mark"></span>
                         <span class="control-label">Гостиница</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
-                      <label class="control">
+                      <label class="location-control">
                         <input class="visually-hidden control-input" type="radio" name="choice" value="motels">
                         <span class="control-mark"></span>
                         <span class="control-label">Мотель</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
-                      <label class="control">
+                      <label class="location-control">
                         <input class="visually-hidden control-input" type="radio" name="choice" value="apartments">
                         <span class="control-mark"></span>
                         <span class="control-label">Апартаменты</span>
@@ -114,9 +112,9 @@
                 <fieldset class="catalog-filter-group">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <label class="control2" for="from">от</label>
-                    <input class="input2" id="from" type="number" name="min-price" value="0">
+                    <input class="input-cost" id="from" type="number" name="min-price" value="0">
                   <label class="control2" for="from2">до</label>
-                    <input class="input2" id="from2" type="number" name="max-price" value="9000">
+                    <input class="input-cost" id="from2" type="number" name="max-price" value="9000">
                   <button class="range-toggle toggle-min" type="button">
                     <span class="visually-hidden">Изменить минимальную цену.</span>
                   </button>
@@ -125,29 +123,33 @@
                   </button>
                 </fieldset>
                 <button class="button-acceptance" type="submit">Применить</button>
-                <button class="button-reset" type="reset" value="Сбросить">
+                <button class="button-reset" type="reset">Сбросить</button>
               </form>
             </section>
             <section class="white-color">
-              <h2 class="hotels-found">Найдено гостиниц:</h2>
-              <form class="sorting-type">
-                <label class="visually-hidden" for="sorting">Сортировка</label>
-                  <select class="select-control" id="sorting" name="sorting">
-                    <option value="cheap">Сначала дешёвые</option>
-                    <option value="popular">Сначала популярные</option>
-                    <option value="expensive">Сначала дорогие</option>
-                  </select>
-                  <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
-              </form>
-              <a href="#" class="button-impressions squares">
-                <span class="visually-hidden">Показать карточки</span>
-              </a>
-              <a href="#" class="button-impressions button-carousel">
-                <span class="visually-hidden">Показать галерею</span>
-              </a>
-              <a href="#" class="button-impressions button-light">
-                <span class="visually-hidden">Показать список</span>
-              </a>
+              <div class="grid-of-hotels-found">
+                <h2 class="hotels-found">Найдено гостиниц:</h2>
+                <form class="sorting-type">
+                  <label class="visually-hidden" for="sorting">Сортировка</label>
+                    <select class="select-control" id="sorting" name="sorting">
+                      <option value="cheap">Сначала дешёвые</option>
+                      <option value="popular">Сначала популярные</option>
+                      <option value="expensive">Сначала дорогие</option>
+                    </select>
+                    <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
+                </form>
+                <div class="managing-icons">
+                  <a class="button-impressions squares indent" href="#">
+                    <span class="visually-hidden">Показать карточки</span>
+                  </a>
+                  <a class="button-impressions button-carousel indent" href="#">
+                    <span class="visually-hidden">Показать галерею</span>
+                  </a>
+                  <a class="button-impressions button-light" href="#">
+                    <span class="visually-hidden">Показать список</span>
+                  </a>
+                </div>
+              </div>
               <ul class="list-hotels">
                 <li class="card-hotels">
                   <img class="card-hotels-image" src="images/for-hotel-catalog/hotels/hotel-1.jpg" width="180px" height="120px" alt="Гостиница">
@@ -192,8 +194,8 @@
               </ul>
               <button class="button-loading pagination-show-more" type="button">Загрузить ещё</button>
               <ul class="pagination">
-                <li class="pagination-item">
-                  <a class="pagination-current">1</a>
+                <li class="pagination-list-element">
+                  <a class="pagination-current" href="#">1</a>
                 </li>
                 <li class="pagination-item">
                   <a class="pagination-link" href="#">2</a>
@@ -214,7 +216,7 @@
               <p class="availability-of-hotels">Гостиниц на странице:</p>
               <form class="sorting-type2">
                 <label class="visually-hidden" for="sorting2">Сортировка</label>
-                  <select class="select-control2" id="sorting2" name="sorting">
+                  <select class="select-control-list" id="sorting2" name="sorting">
                     <option value="one">1</option>
                     <option value="two">2</option>
                     <option value="three">3</option>
@@ -226,11 +228,11 @@
             </section>
           </main>
         <footer>
-            <section class="form">
-              <h2 class="descriptive-title">Подпишитесь на рассылку</h2>
-              <p class="informational-text">Только полезная информация и никакого спама,<br>
+            <section class="white-color">
+              <h2 class="descriptive-name-mailing-list">Подпишитесь на рассылку</h2>
+              <p class="informational-text-spam">Только полезная информация и никакого спама,<br>
               честное бойскаутское!</p>
-              <form>
+              <form class="subscribe-form">
                 <input type="email" placeholder="Ваш e-mail" name="email">
                 <input class="button-subscription" type="submit" value="Подписаться" name="button">
               </form>

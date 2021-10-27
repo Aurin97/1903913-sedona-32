@@ -8,7 +8,17 @@
     font-size: 60px;
     line-height: 78px;
     color: rgb(255, 255, 255);
-    padding: 15% 0 0 0;
+    margin: 0 auto;
+    padding: 2% 0 0 38px;
+}
+
+.grid-list {
+    display: flex;
+    align-items: center;
+}
+
+.the-arrow {
+    display: flex;
 }
 
 .the-arrow::after{ 
@@ -17,6 +27,7 @@
     width: 5px;
     height: 8px;
     background: url(../images/for-hotel-catalog/the-arrow.svg) no-repeat;
+    margin-top: 7px;
 }
 
 .the-shack {
@@ -27,12 +38,18 @@
     background-repeat: repeat;
     background-size: 12px 12px;
     background-position: center;
+    margin: 3px 10px 0 0;
 }
 
 .text-hotels {
     font-size: 16px;
     line-height: 21px;
     color: rgb(255, 255, 255);
+    margin: 7px 0 0 10px;
+}
+
+.moving {
+    margin: 50px 0 0 25px;
 }
 
 .catalog-filter-title {
@@ -42,29 +59,63 @@
     color: rgb(255, 255, 255);
 }
 
+.control {
+    margin-left: -3.5%;
+}
+
 .control-label {
     font-size: 18px;
     line-height: 23px;
     color: rgb(255, 255, 255);
 }
 
+.moving-object {
+    display: grid;
+    margin: -12.3% 0 0 250px;
+}
+
+.location-control {
+    margin-left: -4%;
+}
+
+.catalog-filter-group {
+    display: grid;
+    margin: -12.5% 0 0 550px;
+}
+
+.input-cost {
+    width: 287px;
+}
+
+.range-toggle {
+    width: 287px;
+    margin-top: 10px;
+}
+
 .button-acceptance {
+    display: grid;
+    margin: -9% 0 0 900px;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
     background: rgb(131, 179, 211);
+    color:rgb(255, 255, 255);
 }
 
 .button-reset {
+    display: grid;
+    margin: 1% 0 0 920px;
     line-height: 23px;
     text-align: center;
     color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
 }
 
-.background-for-the-catalog {
-    background: rgb(255, 255, 255);
+.grid-of-hotels-found {
+    display: flex;
 }
 
 .hotels-found {
@@ -73,12 +124,28 @@
     line-height: 39px;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
+    margin: 2% 0 0 45px;
+}
+
+.select-control {
+    display: grid;
+    margin: 8% 0 0 180px;
+}
+
+.managing-icons {
+    display: flex;
+    margin: 2.5% 0 0 380px;
+    
 }
 
 .squares {
     width: 16px;
     height: 14px;
     background: url(../images/for-hotel-catalog/squares.svg) no-repeat;
+}
+
+.indent {
+    margin-right: 15px;
 }
 
 .button-carousel {
@@ -93,7 +160,13 @@
     background: url(../images/for-hotel-catalog/list.svg) no-repeat;
 }
 
+.card-hotels {
+    margin: 5% 0 0 0;
+}
+
 .card-hotels-title {
+    display: grid;
+    margin: -11.3% 0 0 220px;
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
@@ -101,11 +174,21 @@
 }
 
 .objects {
+    display: grid;
+    margin: 0.2% 0 0 220px;
     line-height: 23px;
     color: rgb(51, 51, 51);
 }
 
+.price {
+    display: grid;
+    margin: -2% 0 0 380px;
+}
+
 .button-detailed {
+    display: grid;
+    margin: 4.5% 0 0 220px;
+    width: 151px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -115,6 +198,9 @@
 }
 
 .link-favorites {
+    display: grid;
+    margin: -1.8% 0 0 380px;
+    width: 160px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -130,6 +216,9 @@
 }
 
 .rating {
+    display: grid;
+    margin: -1.8% 0 0 930px;
+    width: 160px;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
@@ -144,6 +233,9 @@
 }
 
 .chosenness {
+    display: grid;
+    margin: -1.8% 0 0 380px;
+    width: 160px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -159,24 +251,77 @@
 }
 
 .button-loading {
+    margin: 5% 0 0 300px;
+    width: 625px;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     background: rgb(131, 179, 211);
 }
 
-.pagination-current {
+.pagination {
+    display: flex;
+}
+
+.pagination-list-element {
+    width: 55px;
+    margin-top: 40px;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
+    background: rgb(242, 242, 242);
+}
+
+.pagination-current {
     color: rgb(0, 0, 0);
-    background: rgb(229, 229, 229);
+}
+
+.pagination-item {
+    width: 55px;
+    margin: 40px 5px 0 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: rgb(131, 179, 211);
+}
+
+.pagination-link {
+    color:rgb(255, 255, 255);
 }
 
 .availability-of-hotels {
+    display: grid;
+    margin: -3.5% 0 0 700px;
     line-height: 23px;
+}
+
+.select-control-list {
+    display: grid;
+    margin: -1.5% 0 0 930px;
+    width: 150px;
+}
+
+.descriptive-name-mailing-list {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+}
+
+.informational-text-spam {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.subscribe-form {
+    text-align: center;
 }
