@@ -157,11 +157,8 @@
     margin: 0 auto;
 }
 
-.list-of-importance {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    margin: 0;
-    padding: 0;
+.list-of-interests {
+    width: 100%;
 }
 
 .text-volume {
@@ -181,6 +178,10 @@
 .dark-blue-center {
     background: rgba(131, 179, 211, 0.2);
     text-align: center;
+}
+
+.list-of-interests-riding {
+    width: 400px;
 }
 
 .search-for-hotels {

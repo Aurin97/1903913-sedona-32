@@ -48,7 +48,8 @@
     margin: 7px 0 0 10px;
 }
 
-.moving {
+.catalog-filter {
+    display: flex;
     margin: 50px 0 0 25px;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .control {
-    margin-left: -3.5%;
+    margin-left: -1%;
 }
 
 .control-label {
@@ -70,8 +71,7 @@
 }
 
 .moving-object {
-    display: grid;
-    margin: -12.3% 0 0 250px;
+    margin-left: 4%;
 }
 
 .location-control {
@@ -79,8 +79,7 @@
 }
 
 .catalog-filter-group {
-    display: grid;
-    margin: -12.5% 0 0 550px;
+    margin-left: 100px;
 }
 
 .input-cost {
@@ -93,20 +92,19 @@
 }
 
 .button-acceptance {
-    display: grid;
-    margin: -9% 0 0 900px;
+    margin: 4% -8% 0 0;
+    width: 260px;
+    height: 50px;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
-    text-align: center;
     text-transform: uppercase;
     background: rgb(131, 179, 211);
     color:rgb(255, 255, 255);
 }
 
-.button-reset {
-    display: grid;
-    margin: 1% 0 0 920px;
+.button-reset { 
+    margin: 6% 15% 0 0;
     line-height: 23px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -165,7 +163,6 @@
 }
 
 .card-hotels-title {
-    display: grid;
     margin: -11.3% 0 0 220px;
     font-weight: bold;
     font-size: 24px;
@@ -174,14 +171,12 @@
 }
 
 .objects {
-    display: grid;
     margin: 0.2% 0 0 220px;
     line-height: 23px;
     color: rgb(51, 51, 51);
 }
 
 .price {
-    display: grid;
     margin: -2% 0 0 380px;
 }
 
@@ -216,7 +211,6 @@
 }
 
 .rating {
-    display: grid;
     margin: -1.8% 0 0 930px;
     width: 160px;
     font-size: 16px;
