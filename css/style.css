@@ -36,8 +36,6 @@ a {
 
 ol {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 ul {
@@ -82,6 +80,7 @@ fieldset {
 }
 
 .search-icon {
+    display: block;
     width: 18px;
     height: 18px;
     background: url(../images/general-images/search.svg) no-repeat;
@@ -101,6 +100,7 @@ fieldset {
 }
 
 .favourites {
+    display: block;
     width: 18px;
     height: 17px;
     background: url(../images/general-images/favourites.svg) no-repeat;

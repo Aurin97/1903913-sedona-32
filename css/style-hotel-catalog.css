@@ -13,7 +13,8 @@
 }
 
 .grid-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 28px 85px;
     align-items: center;
 }
 
@@ -49,7 +50,8 @@
 }
 
 .catalog-filter {
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 200px 420px 250px;
     margin: 50px 0 0 25px;
 }
 
@@ -92,8 +94,8 @@
 }
 
 .button-acceptance {
-    margin: 4% -8% 0 0;
-    width: 260px;
+    margin: 20% 0 0 30%;
+    width: 160px;
     height: 50px;
     font-weight: bold;
     font-size: 16px;
@@ -104,7 +106,7 @@
 }
 
 .button-reset { 
-    margin: 6% 15% 0 0;
+    margin: 10% 0 0 48%;
     line-height: 23px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -113,7 +115,8 @@
 }
 
 .grid-of-hotels-found {
-    display: flex;
+    display: grid;
+    grid-template-columns: 350px 287px 480px;
 }
 
 .hotels-found {
@@ -126,14 +129,12 @@
 }
 
 .select-control {
-    display: grid;
     margin: 8% 0 0 180px;
 }
 
 .managing-icons {
     display: flex;
-    margin: 2.5% 0 0 380px;
-    
+    margin: 5% 0 0 400px;
 }
 
 .squares {
@@ -159,11 +160,13 @@
 }
 
 .card-hotels {
+    display: grid;
+    grid-template-columns: 180px 550px 428px;
     margin: 5% 0 0 0;
 }
 
 .card-hotels-title {
-    margin: -11.3% 0 0 220px;
+    margin: -1% 0 0 20px;
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
@@ -171,19 +174,19 @@
 }
 
 .objects {
-    margin: 0.2% 0 0 220px;
+    margin: 0.2% 0 0 20px;
     line-height: 23px;
     color: rgb(51, 51, 51);
 }
 
 .price {
-    margin: -2% 0 0 380px;
+    margin: -4% 0 0 175px;
 }
 
-.button-detailed {
-    display: grid;
-    margin: 4.5% 0 0 220px;
-    width: 151px;
+.button-detailed { 
+    display: block;
+    margin: 9.1% 0 0 20px;
+    width: 131px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -193,9 +196,9 @@
 }
 
 .link-favorites {
-    display: grid;
-    margin: -1.8% 0 0 380px;
-    width: 160px;
+    display: block;
+    margin: -3.8% 0 0 175px;
+    width: 131px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -211,7 +214,7 @@
 }
 
 .rating {
-    margin: -1.8% 0 0 930px;
+    margin: 22% 0 0 205px;
     width: 160px;
     font-size: 16px;
     text-align: center;
@@ -227,9 +230,9 @@
 }
 
 .chosenness {
-    display: grid;
-    margin: -1.8% 0 0 380px;
-    width: 160px;
+    display: block;
+    margin: -3.8% 0 0 175px;
+    width: 131px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -253,6 +256,11 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     background: rgb(131, 179, 211);
+}
+
+.hotel-transition-grid {
+    display: grid;
+    grid-template-columns: 380px 550px 270px;
 }
 
 .pagination {
@@ -288,14 +296,12 @@
 }
 
 .availability-of-hotels {
-    display: grid;
-    margin: -3.5% 0 0 700px;
+    margin: 8% 0 0 370px;
     line-height: 23px;
 }
 
 .select-control-list {
-    display: grid;
-    margin: -1.5% 0 0 930px;
+    margin: 17% 0 0 17%;
     width: 150px;
 }
 
