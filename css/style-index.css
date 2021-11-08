@@ -140,15 +140,6 @@
     grid-template-columns: 800px 400px;
 }
 
-.benefits {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
 .bridge {
     width: 178px;  
     margin: 0 auto;

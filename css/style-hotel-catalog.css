@@ -116,7 +116,7 @@
 
 .grid-of-hotels-found {
     display: grid;
-    grid-template-columns: 350px 287px 480px;
+    grid-template-columns: 350px 347px 503px;
 }
 
 .hotels-found {
@@ -134,7 +134,7 @@
 
 .managing-icons {
     display: flex;
-    margin: 5% 0 0 400px;
+    margin: 5% 0 0 280px;
 }
 
 .squares {
@@ -248,7 +248,8 @@
 }
 
 .button-loading {
-    margin: 5% 0 0 300px;
+    display: block;
+    margin: 5% auto 1% auto;
     width: 625px;
     font-weight: bold;
     font-size: 20px;
@@ -265,11 +266,11 @@
 
 .pagination {
     display: flex;
+    margin-top: 40px;
 }
 
 .pagination-list-element {
     width: 55px;
-    margin-top: 40px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -283,7 +284,7 @@
 
 .pagination-item {
     width: 55px;
-    margin: 40px 5px 0 5px;
+    margin: 0 5px 0 5px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
