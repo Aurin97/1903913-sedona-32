@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виктор Лелюхин](https://up.htmlacademy.ru/htmlcss/32/user/1903913).
-* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
+* Наставник: [Наталья Зотова](https://htmlacademy.ru/profile/id1079951).
 
 ---
 

@@ -5,44 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Гостиницы Седона</title>
+    <link rel="icon" type="image/svg+xml" href="images/general-images/favicon.ico">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-hotel-catalog.css" rel="stylesheet">
 </head>
 <body>
-    <div class="grey-background">
         <header class="page-header">
           <nav class="navigation">
-            <ul class="navigation-list">
+            <ul class="navigation-list not-an-intentional-list">
               <li>
-                <a class="navigation-link" href="index.html">Главная</a>
+                <a class="navigation-link link" href="index.html">Главная</a>
               </li>
               <li>
-                <a class="navigation-link" href="#">О Седоне</a>
+                <a class="navigation-link link" href="#">О Седоне</a>
               </li>
               <li>
-                <a class="navigation-link" href="hotel-catalog.html">Гостиницы</a>
+                <a class="navigation-link link" href="hotel-catalog.html">Гостиницы</a>
               </li>
             </ul>
-            <a class="navigation-link" href="index.html">
+            <a class="navigation-link link" href="index.html">
               <img src="images/general-images/sedona.svg" width="138" height="70" alt="Логотип">
             </a>
-            <ul class="navigation-user">
+            <ul class="navigation-user not-an-intentional-list">
               <li>
-                <a class="search-icon" href="#">
+                <a class="search-icon link" href="#">
                   <span class="visually-hidden">
                     Поиск
                   </span>  
                 </a>
               </li>
               <li>
-                <a class="favourites" href="#">
+                <a class="favourites link" href="#">
+                  <span class="product-display">
+                    12
+                  </span>
                   <span class="visually-hidden">
                     Избранное
                   </span>
                 </a>
               </li>
               <li>
-                <a class="button-wishlist" href="#">Хочу сюда!</a>
+                <a class="button-wishlist link" href="#">Хочу сюда!</a>
               </li>
             </ul>
           </nav>
@@ -50,16 +52,16 @@
         <main class="main-inner">
             <section class="blurred-rock">
               <h1 class="inner-header-title">Гостиницы Седоны</h1>
-              <ul class="grid-list">
+              <ul class="grid-list not-an-intentional-list">
                 <li class="the-arrow"> 
-                  <a class="the-shack" href="index.html"></a>
+                  <a class="the-shack link" href="index.html"></a>
                 </li>
                 <li class="text-hotels">Гостиницы</li>
               </ul>
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                <fieldset class="moving">
+                <fieldset class="moving visual-object">
                   <legend class="catalog-filter-title">Инфраструктура:</legend>
-                  <ul class="catalog-filter-list">
+                  <ul class="catalog-filter-list not-an-intentional-list">
                     <li class="catalog-filter-item">
                       <label class="control">
                         <input class="visually-hidden control-input" type="checkbox" name="choice" checked>
@@ -83,9 +85,9 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="moving-object">
+                <fieldset class="moving-object visual-object">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
-                  <ul class="catalog-filter-list">
+                  <ul class="catalog-filter-list not-an-intentional-list">
                     <li class="catalog-filter-item">
                       <label class="location-control">
                         <input class="visually-hidden control-input" type="radio" name="choice" value="hotels" checked>
@@ -109,7 +111,7 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="catalog-filter-group">
+                <fieldset class="catalog-filter-group visual-object">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <label class="control2" for="from">от</label><br>
                     <input class="input-cost" id="from" type="number" name="min-price" value="0"><br>
@@ -122,7 +124,7 @@
                     <span class="visually-hidden">Изменить максимальную цену.</span>
                   </button>
                 </fieldset>
-                <div>
+                <div class="container">
                   <button class="button-acceptance" type="submit">Применить</button>
                   <button class="button-reset" type="reset">Сбросить</button>
                 </div>
@@ -141,70 +143,70 @@
                     <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
                 </form>
                 <div class="managing-icons">
-                  <a class="button-impressions squares indent" href="#">
+                  <a class="button-impressions squares indent link" href="#">
                     <span class="visually-hidden">Показать карточки</span>
                   </a>
-                  <a class="button-impressions button-carousel indent" href="#">
+                  <a class="button-impressions button-carousel indent link" href="#">
                     <span class="visually-hidden">Показать галерею</span>
                   </a>
-                  <a class="button-impressions button-light" href="#">
+                  <a class="button-impressions button-light link" href="#">
                     <span class="visually-hidden">Показать список</span>
                   </a>
                 </div>
               </div>
-              <ul class="list-hotels">
+              <ul class="list-hotels not-an-intentional-list">
                 <li class="card-hotels">
                   <img class="card-hotels-image" src="images/for-hotel-catalog/hotels/hotel-1.jpg" width="180" height="120" alt="Гостиница">
-                  <div>
+                  <div class="container">
                     <h3 class="card-hotels-title">Amara Resort & Spa</h3>
                     <p class="objects">Гостиница</p> 
                     <p class="price">От 4000 ₽</p>
-                    <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
-                    <a class="link-favorites" href="#">В избранное</a>
+                    <a class="navigation-user-link button-detailed link" href="#">Подробнее</a>
+                    <a class="link-favorites link" href="#">В избранное</a>
                   </div>
-                  <div>
+                  <div class="container">
                     <span class="four-stars visually-hidden">4 звезды</span>
                     <p class="rating">Рейтинг:</p>
                   </div>
                 </li>
                 <li class="card-hotels">
                   <img class="card-hotels-image" src="images/for-hotel-catalog/hotels/hotel-2.jpg" width="180" height="120" alt="Мотель">
-                  <div>
+                  <div class="container">
                     <h3 class="card-hotels-title">Desert Quail Inn</h3>
                     <p class="objects">Мотель</p>
                     <p class="price">От 3000 ₽</p>
-                    <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
-                    <a class="link-favorites" href="#">В избранное</a>
+                    <a class="navigation-user-link button-detailed link" href="#">Подробнее</a>
+                    <a class="link-favorites link" href="#">В избранное</a>
                   </div>
-                  <div>
+                  <div class="container">
                     <span class="three-stars visually-hidden">3 звезды</span>
                     <p class="rating">Рейтинг:</p>
                   </div>
                 </li>
                 <li class="card-hotels">
                   <img class="card-hotels-image" src="images/for-hotel-catalog/hotels/hotel-3.jpg" width="180" height="120" alt="Апартаменты">
-                  <div>
+                  <div class="container">
                     <h3 class="card-hotels-title">Villas at Poco Diablo</h3>
                     <p class="objects">Апартаменты</p>
                     <p class="price">От 2000 ₽</p>
-                    <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
-                    <a class="chosenness" href="#">В избранное</a>
+                    <a class="navigation-user-link button-detailed link" href="#">Подробнее</a>
+                    <a class="chosenness link" href="#">В избранное</a>
                   </div>
-                  <div>
+                  <div class="container">
                     <span class="two-stars visually-hidden">2 звезды</span>
                     <p class="rating">Рейтинг:</p>
                   </div>
                 </li>
                 <li class="card-hotels">
                   <img class="card-hotels-image" src="images/for-hotel-catalog/hotels/hotel-4.jpg" width="180" height="120" alt="Гостиница">
-                  <div>
+                  <div class="container">
                     <h3 class="card-hotels-title">GreenTree Inn</h3>
                     <p class="objects">Гостиница</p>
                     <p class="price">От 3000 ₽</p>
-                    <a class="navigation-user-link button-detailed" href="#">Подробнее</a>
-                    <a class="link-favorites" href="#">В избранное</a>
+                    <a class="navigation-user-link button-detailed link" href="#">Подробнее</a>
+                    <a class="link-favorites link" href="#">В избранное</a>
                   </div>
-                  <div>
+                  <div class="container">
                     <span class="two-stars visually-hidden">2 звезды</span>
                     <p class="rating">Рейтинг:</p>
                   </div>
@@ -212,24 +214,24 @@
               </ul>
               <button class="button-loading pagination-show-more" type="button">Загрузить ещё</button>
               <div class="hotel-transition-grid">
-                <ul class="pagination">
+                <ul class="pagination not-an-intentional-list">
                   <li class="pagination-list-element">
-                    <a class="pagination-current" href="#">1</a>
+                    <a class="pagination-current link" href="#">1</a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link" href="#">2</a>
+                    <a class="pagination-link link" href="#">2</a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link" href="#">3</a>
+                    <a class="pagination-link link" href="#">3</a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link" href="#">4</a>
+                    <a class="pagination-link link" href="#">4</a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link" href="#">...</a>
+                    <a class="pagination-link link" href="#">...</a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link" href="#">10</a>
+                    <a class="pagination-link link" href="#">10</a>
                   </li>
                 </ul>
                 <p class="availability-of-hotels">Гостиниц на странице:</p>
@@ -247,7 +249,7 @@
               </div>
             </section>
           </main>
-        <footer>
+        <footer class="footer">
             <section class="white-color">
               <h2 class="descriptive-name-mailing-list">Подпишитесь на рассылку</h2>
               <p class="informational-text-spam">Только полезная информация и никакого спама,<br>
@@ -258,25 +260,25 @@
               </form>
             </section>
             <section class="contacts">
-              <div>
+              <div class="container">
                 <h2 class="visually-hidden">Контакты</h2>
-                <ul>
+                <ul class="not-an-intentional-list">
                   <li>
-                    <a class="twitter" href="https://twitter.com/htmlacademy_ru">
+                    <a class="twitter link" href="https://twitter.com/htmlacademy_ru">
                       <span class="visually-hidden">
                         твиттер
                       </span> 
                     </a>
                   </li>
                   <li>
-                    <a class="facebook" href="https://www.facebook.com/htmlacademy">
+                    <a class="facebook link" href="https://www.facebook.com/htmlacademy">
                       <span class="visually-hidden">
                         Фейсбук
                       </span> 
                     </a>
                   </li>
                   <li>
-                    <a class="youtube" href="https://www.youtube.com/c/HTMLAcademyRUS">
+                    <a class="youtube link" href="https://www.youtube.com/c/HTMLAcademyRUS">
                       <span class="visually-hidden">
                         Ютуб
                       </span> 
@@ -285,10 +287,10 @@
                 </ul>
               </div>
               <div class="phone-number">
-                <a class="telephone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+                <a class="telephone link" href="tel:+78128121212">+7 (812) 812-12-12</a>
               </div>
               <div class="the-academy">
-                <a class="academia" href="https://htmlacademy.ru/">
+                <a class="academia link" href="https://htmlacademy.ru/">
                   <span class="visually-hidden">
                     HTMLACADEMY
                   </span>
@@ -296,6 +298,5 @@
               </div>
             </section>
         </footer>
-    </div>
 </body>
 </html>
