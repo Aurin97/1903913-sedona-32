@@ -13,7 +13,8 @@
           <nav class="navigation">
             <ul class="navigation-list not-an-intentional-list">
               <li>
-                <a class="navigation-link link" href="index.html">Главная</a>
+                <a class="navigation-link link">Главная</a>
+                <hr class="line">
               </li>
               <li>
                 <a class="navigation-link link" href="#">О Седоне</a>
@@ -22,8 +23,8 @@
                 <a class="navigation-link link" href="hotel-catalog.html">Гостиницы</a>
               </li>
             </ul>
-            <a class="navigation-link link" href="index.html">
-              <img src="images/general-images/sedona.svg" width="138" height="70" alt="Логотип">
+            <a class="link" href="index.html">
+              <img class="logo" src="images/general-images/sedona.svg" width="140" height="75" alt="Логотип">
             </a>
             <ul class="navigation-user not-an-intentional-list">
               <li>
@@ -35,13 +36,13 @@
               </li>
               <li>
                 <a class="favourites link" href="#">
-                  <span class="product-display">
-                    12
-                  </span>
                   <span class="visually-hidden">
                     Избранное
                   </span>
                 </a>
+                <div class="product-display">
+                  12
+                </div>
               </li>
               <li>
                 <a class="button-wishlist link" href="#">Хочу сюда!</a>
@@ -51,40 +52,38 @@
         </header>
         <main class="main-index">
             <section class="mountains">
-              <div class="decor">
                 <h1 class="visually-hidden">Седона</h1>
-                <img class="welcome" src="images/for-index/welcome.svg" width="458" height="352" alt="Второй логотип">
-                <div class="white-color">
+                <img class="welcome" src="images/for-index/welcome.svg" width="458" height="382" alt="Второй логотип">
+                <div class="white-color location">
                   <p class="place">Седона — небольшой городок в Аризоне,
                     заслуживающий большего!</p>
                   <p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
                 </div>
-              </div>
             </section>
-            <section class="advantage">
+            <section class="advantages">
               <h2 class="visually-hidden">Преимущества</h2>
               <ul class="advantages-list list-reset">
                 <li class="advantages-item">
                   <div class="advantages-general">
-                    <div class="advantages-item-list advantages-item-list--color">
+                    <div class="advantages-item-list advantages-item-list-color">
                       <h3 class="advantages-title">Настоящий городок</h3>
                       <p class="advantages-number">— №1 —</p>
                       <p class="advantages-description">Седона — не аттракцион для&nbsp;туристов, там течёт своя&nbsp;жизнь</p>
                     </div>
                     <div class="advantages-photo">
-                      <img src="img/advantage-1.jpg" width="800" height="384" alt="Фото здания в городе">
+                      <img src="images/for-index/hotel.png" width="800" height="384" alt="Фото здания в городе">
                     </div>
                   </div>
                   <ul class="advantages-recommendations list-reset">
-                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item--home">
+                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item-home">
                       <h3 class="advantages-title">Жильё</h3>
                       <p class="advantages-description-text">Рекомендуем пожить в&nbsp;настоящем мотеле, всё&nbsp;как&nbsp;в кино!</p>
                     </li>
-                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item--food">
+                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item-food">
                       <h3 class="advantages-title">Еда</h3>
                       <p class="advantages-description-text">Всегда заказывайте топовый&nbsp;фирменный бургер, вы не разочаруетесь!</p>
                     </li>
-                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item--plus">
+                    <li class="advantages-item-list advantages-recommendations-item advantages-recommendations-item-plus">
                       <h3 class="advantages-title">Сувениры</h3>
                       <p class="advantages-description-text">Не только китайского, но&nbsp;и&nbsp;настоящего местного производства!</p>
                     </li>
@@ -93,9 +92,9 @@
                 <li class="advantages-item">
                   <div class="advantages-general">
                     <div class="advantages-photo">
-                      <img src="img/advantage-2.jpg" width="800" height="384" alt="Фото моста Дьявола">
+                      <img src="images/for-index/the-devil's-bridge.png" width="800" height="384" alt="Фото моста Дьявола">
                     </div>
-                    <div class="advantages-item-list advantages-item-list--color">
+                    <div class="advantages-item-list advantages-item-list-color">
                       <h3 class="advantages-title">Там есть мост дьявола</h3>
                       <p class="advantages-number">— №2 —</p>
                       <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -118,7 +117,6 @@
                   <p class="advantages-description-text">Большинство едет в Гранд Каньон и толпится там</p>
                 </li>
               </ul>
-            
             </section>
               <section class="search-for-hotels"> 
                 <h2 class="lupexperience">Заинтересовались?</h2><br>
@@ -133,14 +131,13 @@
               <p class="informational-text">Только полезная информация и никакого спама,<br>
               честное бойскаутское!</p>
               <form>
-                <input type="email" placeholder="Ваш e-mail" name="email">
-                <input class="button-subscription" type="submit" value="Подписаться" name="button">
+                <input class="input-email" type="email" placeholder="Ваш e-mail" name="email">
+                <button class="button-subscription" type="submit">Подписаться</button>
               </form>
             </section>
             <section class="contacts">
-              <div class="container">
                 <h2 class="visually-hidden">Контакты</h2>
-                <ul class="not-an-intentional-list">
+                <ul class="not-an-intentional-list social-network">
                   <li>
                     <a class="twitter link" href="https://twitter.com/htmlacademy_ru">
                       <span class="visually-hidden">
@@ -163,17 +160,12 @@
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div class="phone-number">
                 <a class="telephone link" href="tel:+78128121212">+7 (812) 812-12-12</a>
-              </div>
-              <div class="the-academy">
-                <a class="academia link" href="https://htmlacademy.ru/">
+                <a class="academia link the-academy" href="https://htmlacademy.ru/">
                   <span class="visually-hidden">
                     HTMLACADEMY
                   </span>
                 </a>
-              </div>
             </section>
         </footer>
 </body>
